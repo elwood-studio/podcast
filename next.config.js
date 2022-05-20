@@ -1,11 +1,16 @@
-const {join} = require('path')
+const { join } = require('path')
+const { withDistribute } = require('@elwood-studio/distribute-react/nextjs')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  env: {
-    dataDir: join(__dirname, 'data'),
-  }
 }
 
-module.exports = nextConfig
+
+module.exports = withDistribute(nextConfig, {
+  dataDir: process.env.DATA_DIR ?? join(__dirname, 'data'),
+  theme: {
+    provider: '@elwood-studio/distribute-theme/podcast',
+    options: {}
+  }
+})
