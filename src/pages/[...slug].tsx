@@ -1,5 +1,5 @@
 export {
-  SlugPage,
+  default,
   getStaticPaths,
   getStaticProps,
 } from '@elwood-studio/distribute-react/nextjs'
