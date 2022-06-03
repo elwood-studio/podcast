@@ -1,0 +1,26 @@
+_version: 0.1
+
+platforms:
+  - name: apple
+    url: http://apple
+
+social:
+  - name: instagram
+    url: http://instagram
+
+meta:
+  titleTemplate: "%s | Awesome Network"
+  defaultTitle: "Awesome Network"
+
+template:
+  global:
+    logo: "/logo.png"
+    nav:
+      - label: Episodes
+        url: /episodes
+      - label: Blog
+        url: /blog
+      - label: Merch
+        url: https://merch.com
+      - label: About
+        url: /about

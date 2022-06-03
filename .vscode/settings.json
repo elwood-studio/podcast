@@ -8,5 +8,6 @@
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true
-  }
+  },
+  "cSpell.words": ["nextjs"]
 }

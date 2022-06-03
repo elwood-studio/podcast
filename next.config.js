@@ -6,11 +6,6 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-
 module.exports = withDistribute(nextConfig, {
   dataDir: process.env.DATA_DIR ?? join(__dirname, 'data'),
-  theme: {
-    provider: '@elwood-studio/distribute-theme/podcast',
-    options: {}
-  }
 })
