@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "manager": "distribute --env-file=/.env.local"
+    "compiler": "distribute --env-file=.env.local"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -18,15 +18,15 @@
     "slug": "^5.3.0",
     "ts-invariant": "^0.10.3",
     "@elwood-studio/distribute-react": "*",
-    "@elwood-studio/distribute-manager": "*"
+    "@elwood-studio/distribute-compiler": "*"
   },
   "devDependencies": {
-    "@types/node": "17.0.35",
-    "@types/react": "18.0.9",
-    "@types/react-dom": "18.0.4",
+    "@types/node": "17.0.39",
+    "@types/react": "18.0.10",
+    "@types/react-dom": "18.0.5",
     "@types/slug": "^5.0.3",
     "autoprefixer": "^10.4.7",
-    "eslint": "8.15.0",
+    "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "fast-xml-parser": "^4.0.7",
     "podparse": "^1.5.1",
@@ -34,6 +34,6 @@
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.11",
     "tailwindcss": "^3.0.24",
-    "typescript": "4.6.4"
+    "typescript": "4.7.3"
   }
 }
