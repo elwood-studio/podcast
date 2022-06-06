@@ -6,6 +6,6 @@ import { PropsWithChildren } from 'react'
 
 export const template = createTemplate()
 
-export function ThemeApp(props: PropsWithChildren<unknown>) {
+export function TemplateApp(props: PropsWithChildren<unknown>) {
   return <App template={template} {...props} />
 }

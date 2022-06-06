@@ -9,18 +9,20 @@ social:
     url: http://instagram
 
 meta:
-  titleTemplate: "%s | Awesome Network"
-  defaultTitle: "Awesome Network"
+  titleTemplate: "%s | Elwood Studio"
 
 template:
-  global:
-    logo: "/logo.png"
+  layout:
+    logo: "/logo.svg"
     nav:
       - label: Episodes
         url: /episodes
       - label: Blog
         url: /blog
       - label: Merch
-        url: https://merch.com
+        url: https://elwood.studio/shop
       - label: About
         url: /about
+    home:
+      meta:
+        title: Elwood Studio

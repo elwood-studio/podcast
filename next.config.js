@@ -3,7 +3,7 @@ const { withDistribute } = require('@elwood-studio/distribute-react/nextjs')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: true
 }
 
 module.exports = withDistribute(nextConfig, {

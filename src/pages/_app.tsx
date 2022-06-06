@@ -1,12 +1,12 @@
 import type { AppProps } from 'next/app'
 
-import { ThemeApp } from '../theme/template'
+import { TemplateApp } from '../theme/template'
 import '../theme/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeApp>
+    <TemplateApp>
       <Component {...pageProps} />
-    </ThemeApp>
+    </TemplateApp>
   )
 }
