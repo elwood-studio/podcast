@@ -4,7 +4,7 @@ import {
   getStaticPropsProvider,
 } from '@elwood-studio/distribute-react/nextjs'
 
-import { template } from '../theme/template'
+import { template } from '../template'
 
 export default Page
 
