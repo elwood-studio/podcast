@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const TemplateApp = template.App
 
   return (
-    <TemplateApp link={Link}>
+    <TemplateApp link={Link} initialAppState={pageProps.appState}>
       <Component {...pageProps} />
     </TemplateApp>
   )
