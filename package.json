@@ -17,16 +17,16 @@
     "react-dom": "18.1.0",
     "slug": "^5.3.0",
     "ts-invariant": "^0.10.3",
-    "@elwood-studio/distribute-react": "*",
-    "@elwood-studio/distribute-compiler": "*"
+    "@elwood-studio/distribute-react": "*"
   },
   "devDependencies": {
+    "@elwood-studio/distribute-compiler": "*",
     "@types/node": "17.0.39",
-    "@types/react": "18.0.10",
+    "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
     "@types/slug": "^5.0.3",
     "autoprefixer": "^10.4.7",
-    "eslint": "8.16.0",
+    "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "fast-xml-parser": "^4.0.7",
     "podparse": "^1.5.1",
