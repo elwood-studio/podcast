@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: ../
+  server:
+    image: nginx
+    volumes:
+      - ../nginx/default.conf:/etc/nginx/nginx.conf:ro
+      - ../public:/var/www
+      - ../data:/var/www/data
+    ports:
+      - 80:80

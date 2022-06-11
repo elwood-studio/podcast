@@ -2,9 +2,9 @@
 FROM node:alpine
 WORKDIR /usr/app
 RUN npm install --global pm2
-COPY ./package*.json ./
+COPY ../package*.json ./
 RUN npm install --production
-COPY ./ ./
+COPY ../ ./
 RUN npm run build
 EXPOSE 3000
 USER node
