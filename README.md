@@ -3,13 +3,40 @@
  <i>Open Source Podcast Hosting</i> 
 </p>
 
+## Overview
+
+`/podcast` offers a complete podcast hosting platform.
+
 ## Getting Started
+
+For more options to get started, visit [elwood.studio/docs/podcast/get-started](https://elwood.studio/docs/podcast/get-started)
+
+### Using Git
+
+#### 1. Close the repo
+
+```
+git clone https://github.com/elwood-studio/podcast.git
+```
+
+#### 2. Install Dependencies
+
+```
+yarn
+```
+
+#### 3. Start developing
+
+```
+yarn dev
+```
 
 ## Documentation
 
 Full documentation is available at [elwodo.studio/docs/podcast](https://elwodo.studio/docs/podcast).
 
-Contributing
+## Contributing
+
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. Look for Good First Issue!
 
 1.  Fork the Project
@@ -38,3 +65,7 @@ Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more inf
 
 - Elwood Studio - [@hello_elwood](https://twitter.com/hello_elwood) - [podcast@elwood.studio](mailto:podcast@elwood.studio)
 - Travis Kuhl - [@traviskuhl](https://twitter.com/traviskuhl) - [travis@elwood.studio](mailto:travis@elwood.studio)
+
+```
+
+```
