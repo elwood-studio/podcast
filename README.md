@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+ <img src="https://elwood-studio-pub.s3.amazonaws.com/podcast-github-banner.png" width="100%">
+ <i>Open Source Podcast Hosting</i> 
+</p>
 
 ## Getting Started
 
-First, run the development server:
+## Documentation
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Full documentation is available at [elwodo.studio/docs/podcast](https://elwodo.studio/docs/podcast).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. Look for Good First Issue!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1.  Fork the Project
+1.  Create your Feature Branch (git checkout -b feature/AmazingFeature)
+1.  Commit your Changes (git commit -m 'Add some AmazingFeature')
+1.  Push to the Branch (git push origin feature/AmazingFeature)
+1.  Open a Pull Request
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+More information in the [Contributing](CONTRIBUTING.md) guide.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Code of Conduct
 
-## Learn More
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-To learn more about Next.js, take a look at the following resources:
+Review the full [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Security Vulnerabilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Please review the full security policy. Report security vulnerabilities to [security@elwood.studio](mailto:security@elwood.studio).
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+
+- Elwood Studio - [@hello_elwood](https://twitter.com/hello_elwood) - [podcast@elwood.studio](mailto:podcast@elwood.studio)
+- Travis Kuhl - [@traviskuhl](https://twitter.com/traviskuhl) - [travis@elwood.studio](mailto:travis@elwood.studio)
