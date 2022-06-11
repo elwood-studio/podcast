@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://elwood-studio-pub.s3.amazonaws.com/podcast-github-banner.png" width="100%">
+ <img src="https://elwood-studio-pub.s3.amazonaws.com/podcast-github-banner-v1.png" width="100%">
  <i>Open Source Podcast Hosting</i> 
 </p>
 
