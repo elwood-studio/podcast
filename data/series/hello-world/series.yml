@@ -1,0 +1,18 @@
+title: Hello World Podcast
+language: en
+author: You
+summary: Say "Hello" to /podcast
+type: episodic
+generator: https://elwood.studio/podcast
+category:
+  - Daily News
+  - News
+owner:
+  name: You
+  email: you@domain.com
+explicit: false
+lastBuildDate: 2022-06-10T15:56:45.000Z
+pubDate: 2022-06-10T10:00:00.000Z
+link: https://www.awesome.com/hello-world
+slug: hello-world
+id: aca9161de96ca854b8c9

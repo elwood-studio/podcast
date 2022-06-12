@@ -1,5 +1,5 @@
 const { join } = require('path')
-const { withDistribute } = require('@elwood-studio/distribute-react/nextjs')
+const { withDistribute } = require('@elwood-studio/distribute-react/next')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

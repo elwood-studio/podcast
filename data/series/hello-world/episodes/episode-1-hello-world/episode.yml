@@ -1,0 +1,11 @@
+title: ‘Episode 1 -- Hello World’
+description: null
+subtitle: Say "Hello" to /podcast
+author: you@awesome.com
+episodeType: full
+guid: hello-world-guid
+explicit: false
+duration: 1304
+pubDate: 2022-06-08T09:45:00.000Z
+link: https://www.awesome.com/hello-world
+slug: episode-1-hello-world

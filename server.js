@@ -2,10 +2,11 @@
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
+const log = require('next/dist/build/output/log')
 
 const {
     createDistributeRequestHandler,
-} = require('@elwood-studio/distribute-react/nextjs')
+} = require('@elwood-studio/distribute-react/next')
 
 const dev = process.env.NODE_ENV !== 'production'
 const hostname = 'localhost'
@@ -24,6 +25,6 @@ app.prepare().then(() => {
         }
     }).listen(port, (err) => {
         if (err) throw err
-        console.log(`> Ready on http://${hostname}:${port}`)
+        log.info(`Ready on http://${hostname}:${port}`)
     })
 })

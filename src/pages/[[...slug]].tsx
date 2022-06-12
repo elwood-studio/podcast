@@ -2,7 +2,7 @@ import {
   Page,
   getStaticPathsProvider,
   getStaticPropsProvider,
-} from '@elwood-studio/distribute-react/nextjs'
+} from '@elwood-studio/distribute-react/next'
 
 import { template } from '../template'
 

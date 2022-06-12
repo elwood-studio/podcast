@@ -5,15 +5,15 @@
 
 ## Getting Started
 
-For more options to get started, visit [elwood.studio/docs/podcast/get-started](https://elwood.studio/docs/podcast/get-started)
+🎤 🎧 🚀 For more information on getting started, visit [elwood.studio/docs/podcast/get-started](https://elwood.studio/docs/podcast/get-started)
 
-### 1. Close the repo
+### 1. Clone this repo
 
 ```
 git clone https://github.com/elwood-studio/podcast.git
 ```
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
 ```
 yarn
@@ -25,7 +25,9 @@ yarn
 yarn dev
 ```
 
-**Ready to deploy?** Find instructions on deployment platforms at [elwood.studio/docs/podcast/deploy](https://elwood.studio/docs/podcast/deploy)
+### 4. Deploy!
+
+Find instructions on deployment platforms at [elwood.studio/docs/podcast/deploy](https://elwood.studio/docs/podcast/deploy)
 
 ## Documentation
 

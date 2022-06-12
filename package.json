@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
-    "compiler": "distribute --env-file=.env.local"
+    "export": "next export",
+    "compiler": "distribute --env-file=.env.local",
+    "github-dist": "gh-pages -d out"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -16,11 +18,10 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "slug": "^5.3.0",
-    "ts-invariant": "^0.10.3",
-    "@elwood-studio/distribute-react": "*"
+    "ts-invariant": "^0.10.3"
   },
   "devDependencies": {
-    "@elwood-studio/distribute-compiler": "*",
+    "@elwood-studio/distribute-compiler": "latest",
     "@types/node": "17.0.39",
     "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
@@ -29,6 +30,7 @@
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "fast-xml-parser": "^4.0.7",
+    "gh-pages": "^4.0.0",
     "podparse": "^1.5.1",
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",
