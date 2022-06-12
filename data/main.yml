@@ -9,20 +9,10 @@ social:
     url: http://instagram
 
 meta:
-  titleTemplate: "%s | Elwood Studio"
+  titleTemplate: "%s | {%= data.series[0].title %}"
 
 template:
   layout:
-    logo: "/logo.svg"
-    nav:
-      - label: Episodes
-        url: /episodes
-      - label: Blog
-        url: /blog
-      - label: Merch
-        url: https://elwood.studio/shop
-      - label: About
-        url: /about
-    home:
-      meta:
-        title: Elwood Studio
+    logoText: "{%= data.series[0].title %}"
+  homepage:
+    seriesID: "{%= data.series[0].id %}"
