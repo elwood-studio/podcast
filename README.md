@@ -7,35 +7,28 @@
 
 🎤 🎧 🚀 For more information on getting started, visit [elwood.studio/docs/podcast/get-started](https://elwood.studio/docs/podcast/get-started)
 
-### 1. Clone this repo
+### 1. Create Your App
 
 ```
-git clone https://github.com/elwood-studio/podcast.git
+npx create-next-app@latest -e https://github.com/elwood-studio/podcast
+# or
+yarn create next-app -e https://github.com/elwood-studio/podcast
+# or
+pnpm create next-app -e https://github.com/elwood-studio/podcast
 ```
 
-### 2. Install dependencies
+### 2. Add Your Content
 
-```
-yarn
-```
+- [Import your existing podcast](https://elwood.studio/docs/podcast/content/import)
+- [Add new series & episodes](https://elwood.studio/docs/podcast/content/add)
 
-### 3. Start developing
-
-```
-yarn dev
-```
-
-### 4. Deploy!
+### 3. Deploy Your Site
 
 Find instructions on deployment platforms at [elwood.studio/docs/podcast/deploy](https://elwood.studio/docs/podcast/deploy)
 
 ## Documentation
 
 Full documentation is available at [elwood.studio/docs/podcast](https://elwodo.studio/docs/podcast).
-
-## Security Vulnerabilities
-
-Please review the full security policy. Report security vulnerabilities to [security@elwood.studio](mailto:security@elwood.studio).
 
 ## License
 
