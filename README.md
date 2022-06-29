@@ -19,6 +19,19 @@ pnpm create next-app -e https://github.com/elwood-studio/podcast
 
 ### 2. Add Your Content
 
+```shell
+# Add a series
+yarn content add series
+
+# Add an episode
+yarn content add episode
+
+# import an existing podcast feed
+yarn content import https://example.com/podcast.xml
+```
+
+_More information_
+
 - [Import your existing podcast](https://elwood.studio/docs/podcast/content/import)
 - [Add new series & episodes](https://elwood.studio/docs/podcast/content/add)
 
